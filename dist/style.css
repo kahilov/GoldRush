@@ -1,0 +1,67 @@
+body{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+#matrix{
+    border-style: solid;
+    display: flex;
+    width: 100vw;
+    height: 90vh;
+}
+.items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    border-color: blue;
+}
+.coin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    border-color: blue;
+}
+#wall{
+    background-color: firebrick;
+    color: transparent;
+}
+#score{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    border-color: red;
+    height: 5vh;
+}
+#dot{
+    background-color: green;
+    text-indent: -1000em;
+}
+#player1{
+    background-color: green;
+}
+#player2{
+    background-color: green;
+}
+#coin{
+    background-color: gold;
+}
+.score{
+    margin: 50px;
+}
+.dimensions{
+    margin:5px;
+}
+.winScreen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#welcome{
+    font-size: 125px;
+}
+p{
+    color: gold;
+}
